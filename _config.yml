@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Evan's Blog!"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Evan Dougal"
+description              : "This is the personal website of Evan Dougal."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -61,30 +61,30 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Evan Dougal"
   avatar           : "bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
+  location         : "Houston, Texas"
   email            :
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : evan.dougal
   foursquare       :
-  github           :
+  github           : edougal
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : evandougal
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : EvanDougal
   vine             :
   weibo            :
   xing             :
