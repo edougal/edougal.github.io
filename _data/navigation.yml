@@ -2,7 +2,7 @@
 main:
 
   - title: "About"
-    url: /_pages/about/
+    url: /_pages/about.md
 
   - title: "Sample Posts"
     url: https://mmistakes.github.io/minimal-mistakes/year-archive/
