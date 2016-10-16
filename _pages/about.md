@@ -3,7 +3,6 @@ title: "About"
 layout: single
 excerpt: "About Page"
 sitemap: true
-permalink: /about.html
 ---
 
 Who am I?
@@ -15,8 +14,6 @@ Howdy! I'm an engineer at [NeoSensory](www.neosensory.com), a startup working on
 
 What am I interested in?
 ----
-
-
 
 ### Hardware Startups (What I do at work)
   * Embedded Systems 
