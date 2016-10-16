@@ -6,32 +6,40 @@ sitemap: true
 permalink: /about.html
 ---
 
-# Who am I?
+Who am I?
+----
 
-Howdy! I'm an engineer at NeoSensory, a startup working on commercializing a wearable device based on research done at the [Eagleman Lab](http://www.eaglemanlab.net/). Right now I'm based in Houston, Texas. If you're around, I'd love to meet and talk about techonology, cool projects you're working on, or anything else. 
+
+Howdy! I'm an engineer at [NeoSensory](www.neosensory.com), a startup working on commercializing a wearable sensory substitution device based on research done at the [Eagleman Lab](http://www.eaglemanlab.net/). Right now I'm based in Houston, Texas. If you're around, I'd love to meet and talk about techonology, cool projects you're working on, or anything else. 
 
 
-# What am I interested in?
+What am I interested in?
+----
 
-## Hardware Startups (What I do at workin)
- Especially these aspects:
-  Embedded Systems 
-  Electrical Engineering
-  Manufacturing
 
-## Knowledge (What I read about)
-  Neuroscience
-  Economics
-  Philosophy
-  History
 
-## Hobbies (What I do outside of work)
-  Cooking
-  Rock climbing
+### Hardware Startups (What I do at work)
+  * Embedded Systems 
+  * Electrical Engineering
+  * Manufacturing
 
-# Who is this blog for? 
+### Knowledge (What I read about)
+  * Neuroscience
+  * Economics
+  * Philosophy
+  * History
 
-This blog is mostly to help myself clarify my own thoughts.
+### Hobbies (What I do outside of work)
+  * Flying Drones
+  * Cooking
+  * Rock climbing  
+ 
+Who is this blog for? 
+----
+
+This blog really a place for me to organize my ideas. I hope anybody interested in any of the above topics finds something worth thinking about here. 
+
+Evan
 
 
 
