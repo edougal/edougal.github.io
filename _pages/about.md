@@ -3,6 +3,7 @@ title: "About"
 layout: single
 excerpt: "About Page"
 sitemap: true
+permalink: /_pages/about.html
 ---
 
 Who am I?
