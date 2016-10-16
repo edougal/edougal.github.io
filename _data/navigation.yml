@@ -4,11 +4,9 @@ main:
   - title: "About"
     url: /_pages/about.md
 
-  - title: "Sample Posts"
+  - title: "Posts"
     url: https://mmistakes.github.io/minimal-mistakes/year-archive/
 
-  - title: "Sample Pages"
+  - title: "Projects"
     url: https://mmistakes.github.io/minimal-mistakes/page-archive/
 
-  - title: "Sample Collections"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/

@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Evan's Blog!"
+title                    : "Evan Dougal!"
 title_separator          : "-"
 name                     : "Evan Dougal"
-description              : "This is the personal website of Evan Dougal."
+description              : "The personal website of Evan Dougal."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
