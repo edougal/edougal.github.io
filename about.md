@@ -1,8 +1,9 @@
 ---
 title: "About"
-layout: single
+layout: archive
 excerpt: "About Page"
 sitemap: true
+author_profile: true
 ---
 
 Who am I?
