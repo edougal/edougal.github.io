@@ -2,7 +2,7 @@
 main:
 
   - title: "About"
-    url: /_pages/about.md
+    url: /about.md
 
   - title: "Posts"
     url: /_posts/
