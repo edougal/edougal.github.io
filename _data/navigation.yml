@@ -5,7 +5,7 @@ main:
     url: /_pages/about.md
 
   - title: "Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+    url: /_posts/
 
   - title: "Projects"
     url: https://mmistakes.github.io/minimal-mistakes/page-archive/
