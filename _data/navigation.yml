@@ -8,5 +8,5 @@ main:
     url: /_posts/
 
   - title: "Projects"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
+    url: /_collections/ 
 
