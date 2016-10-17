@@ -5,15 +5,12 @@ author_profile: true
 tagline: A List of Posts
 ---
 
-{% for post in site.posts %}
+{% include base_path %}
 
-    {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
-    {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts }}</h3>
 
-    {% if day != nday %}
-        <h5 class="date">{{ post.date | date: "%A, %B %e, %Y" }}</h5>
-    {% endif %}
-    {{ post.content }}
-    <hr>
-
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
 {% endfor %}
+
+{% include paginator.html %}
