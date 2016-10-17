@@ -8,7 +8,7 @@ author_profile: true
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}
-      {{ post.date | date: '%B %d, %Y' }}</a>
+      | {{ post.date | date: '%B %d, %Y' }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}
