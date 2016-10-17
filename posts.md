@@ -9,8 +9,8 @@ author_profile: true
     <li>
       <a href="{{ post.url }}">{{ post.title }}
       | {{ post.date | date: '%B %d, %Y' }}</a>
-      <br> 
-      {{ post.excerpt }}
+<!--      <br> 
+      {{ post.excerpt }} -->
     </li>
   {% endfor %}
 </ul>
