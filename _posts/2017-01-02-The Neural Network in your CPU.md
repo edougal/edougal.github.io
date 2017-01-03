@@ -1,6 +1,6 @@
 ---
 excerpt: Information about the use of artificial neural networks for branch prediction, and a simple simulation in python. 
-title: The Neural Network in your CPU
+title: The Neural Network in Your CPU
 ---
 
 # The Neural Network in your CPU 
