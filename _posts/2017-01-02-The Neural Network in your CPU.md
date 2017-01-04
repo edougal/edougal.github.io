@@ -17,7 +17,7 @@ Because of their impact on performance, branch predictors are closely guarded tr
 
 ### How Does a Neural Network Branch Predictor Work?
 
-A simple artificial neural network implementation for improving processor performance can be found in [this](https://www.cs.utexas.edu/~lin/papers/hpca01.pdf) 2001 paper. It uses a single layer perceptron network with integer weight values, which is easy to implement in hardware. A branch predictor in a state of the art processor is certainly far more complex than this this, but this is a good starting point for understanding how an artificial neural network can make accurate predictions. I'll show a simple implementation in a python simulation to explain how the algorithm works. This simple implementation is able to make branch predictions on a real dataset with a **98.47% accuracy rate!** This compares favorably with other simple branch prediction algorithms, like a saturating counter. 
+A simple artificial neural network implementation for improving processor performance can be found in [this](https://www.cs.utexas.edu/~lin/papers/hpca01.pdf) 2001 paper. It uses a single layer perceptron network with integer weight values, which is easy to implement in hardware. A branch predictor in a state of the art processor is certainly far more complex than this this, but this is a good starting point for understanding how an artificial neural network can make accurate predictions. 
 
 The algorithm involves only a few different pieces of information. One is a queue which holds the past N branch instruction outcomes. Another is a table of perceptron weights. In an ideal world, each branch instruction at a given memory address would have its own set of weights.  
 
@@ -29,6 +29,8 @@ A high level explanation of how the algorithm works:
 4. When the true value of the branch statement is known, the perceptron's weights are updated for future predictions and the outcome value is added to the global branch history queue. 
 
 Note that the artificial neural network is not trained in advance -- it is entirely trained on the fly. Updating the perceptron to "learn" the correlations between the global branch history and the branch being predicted is the key. When an entry in the global branch history table matches the correct prediction, +1 is added to the corresponding history weight. When the entry doesn't match the prediction -1 is added to the history weight. 
+
+Below is a simple simulation in python to show how the algorithm works. This implementation is able to make branch predictions on a real dataset with a **98.47% accuracy rate!** This compares favorably with other branch prediction algorithms, like a saturating counter. 
 
 Here's a python implementation of a simple single layer perceptron using integer weights:
 
