@@ -9,7 +9,7 @@ The answer turned out to be the branch predictor, whose performance can be great
 
 ### What is Branch Prediction?
 
- Modern CPU's have long pipelines [some as long as 20-24 stages](http://www.bit-tech.net/hardware/cpus/2008/11/03/intel-core-i7-nehalem-architecture-dive/5), which allows them to execute many instructions at different stages of completion simultaneously. That works perfectly well for sequential instructions, but what instructions should the pipeline be computing before a conditional instruction is fully processed? 
+ Modern CPU's have long pipelines, [some as long as 20-24 stages](http://www.bit-tech.net/hardware/cpus/2008/11/03/intel-core-i7-nehalem-architecture-dive/5), which allow them to execute many instructions at different stages of completion simultaneously. That works perfectly well for sequential instructions, but what instructions should the pipeline be computing before a conditional instruction is fully processed? 
  
 The processor actually attempts to predict whether the branch instruction will be taken or not. If the processor's prediction is correct, execution proceeds as normal. If the branch is incorrect, the processor has to perform a time consuming operation known as ["flushing the pipeline"](https://en.wikipedia.org/wiki/Pipeline_flush), where all of the partially executed instructions in the pipeline have to be removed. Thus, a better method of branch prediction directly impacts how quickly programs will run on your processor. As branch instructions make up [as many around 22% of all instructions](http://web.engr.oregonstate.edu/~benl/Projects/branch_pred/), it turns out that accurate branch prediction is one of the most critical drivers of CPU performance.
 
