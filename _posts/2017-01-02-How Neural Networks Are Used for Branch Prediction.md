@@ -1,6 +1,6 @@
 ---
 excerpt: Information about the use of artificial neural networks for branch prediction, and a simple simulation in python. 
-title: The Neural Network in Your CPU
+title: How Neural Networks are used for Branch Prediction
 ---
 
 Did you know that most modern processors manufactured today have an artificial neural network implemented in hardware within it? The first time I heard this I thought through all of the different features that modern CPU's implement, but couldn't put my finger on exactly which feature would benefit from an artificial neural network. Most aspects of the processor make exact calculations, so an artificial neural network doesn't seem obviously useful. For example, an artificial neural network wouldn't improve the instruction decode step of the pipeline. My thoughts turned to cache replacement policies. Maybe a neural network could help the processor decide what information to cache? 
